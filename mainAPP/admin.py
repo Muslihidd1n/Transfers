@@ -10,7 +10,7 @@ class TransfersAdmin(admin.ModelAdmin):
     list_filter = ["mavsum"]
     search_fields = ["player"]
     search_help_text = "Playerni qidiring."
-    list_per_page = 4
+    list_per_page = 5
 
 
 admin.site.register(Davlat)
